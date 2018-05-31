@@ -15,8 +15,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-@WebServlet(name = "TomcatTestServlet", urlPatterns = "/tomcat-test")
-public class TomcatTestServlet extends HttpServlet {
+@WebServlet(name = "TomcatPoolingServlet", urlPatterns = "/tomcat-pooling")
+public class TomcatPoolingServlet extends HttpServlet {
     public String getServletInfo() {
         return "Servlet connects to MySQL database and displays result of a SELECT";
     }
